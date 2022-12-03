@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #ff7500;
+  border-radius: 4px;
+  width: 155px;
+  height: 39px;
+  border: 0px;
+}
+.button-one {
+  margin-top: -12px;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+}
+.list-item {
+  padding-right: 32px;
+  font-size: 13px;
+  line-height: 15px;
+  text-transform: uppercase;
+  font-family: Roboto;
+  color: black;
+}
+.container-main {
+  width: 100%;
+  max-width: 1440px;
+  height: 488px;
+  margin: auto;
+  background-color: #252420;
+  color: white;
+}
+.header-news {
+  padding-right: 230px;
+  font-family: Roboto Condensed;
+  font-size: 40px;
+  line-height: 48px;
+}
+.paragraph-news {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 203px;
+}
+.rectangle {
+  width: 80px;
+  background-color: #ff7500;
+  height: 3px;
+  border: 0px;
+}
+.sale-book {
+  margin-top: -64px;
+  border-radius: 12px;
+}
+.pyton-book {
+  border-radius: 12px;
+}
+
+.container-news {
+  display: flex;
+  align-items: center;
+}
+.container-about {
+  padding-top: 210px;
+}
+.three-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-about {
+  font-family: Roboto Condensed;
+  font-size: 72px;
+  line-height: 87px;
+  padding-right: 700px;
+}
+.three-header {
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  line-height: 29px;
+}
+.three-paragraph {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 60px;
+}
+.three-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #ff750033;
+  border-radius: 50%;
+  padding: 25px;
+}
+.container-sale {
+  margin-top: 210px;
+}
+.header-sale {
+  font-family: Roboto Condensed;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  padding-right: 190px;
+}
+.paragraph-sale {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  padding-right: 92px;
+  letter-spacing: 0.5px;
+  padding-bottom: 24px;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list ul {
+  list-style: none;
+}
+.footer-list ul li {
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 27px;
+}
+.footer-logo {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.social img {
+  padding-left: 16px;
+}
+.footer-bagraund {
+  width: 100%;
+  background-color: #f8f8f8;
+  margin-top: 160px;
+}
